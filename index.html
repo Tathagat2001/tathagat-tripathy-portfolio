@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Tathagat Tripathy — Interactive Business Intelligence portfolio.">
+<title>Tathagat Tripathy | BI Analytics Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a href="#overview" class="brand"><span class="brand-mark">TT</span><span><b>TATHAGAT</b><small>BUSINESS INTELLIGENCE</small></span></a>
+    <div class="side-section">
+      <small>WORKSPACE</small>
+      <a class="side-link active" href="#overview"><span>◈</span> Executive Overview</a>
+      <a class="side-link" href="#impact"><span>◌</span> Impact Analytics</a>
+      <a class="side-link" href="#projects"><span>◇</span> Project Explorer</a>
+      <a class="side-link" href="#stack"><span>⌁</span> Technology Stack</a>
+    </div>
+    <div class="side-section">
+      <small>PROFILE</small>
+      <a class="side-link" href="#experience"><span>▣</span> Career Timeline</a>
+      <a class="side-link" href="#credentials"><span>✓</span> Certifications</a>
+    </div>
+    <div class="sidebar-bottom">
+      <div class="status"><i></i> AVAILABLE FOR OPPORTUNITIES</div>
+      <a class="side-contact" href="mailto:tathagattripathy2001@gmail.com">Contact me <b>↗</b></a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div><span class="crumb">WORKSPACE</span><b>/</b><span>Executive Analytics</span></div>
+      <div class="top-actions"><span class="live"><i></i> LIVE PROFILE</span><a href="https://www.linkedin.com/in/tathagat-tripathy" target="_blank">LinkedIn ↗</a></div>
+    </header>
+
+    <section id="overview" class="dashboard-section">
+      <div class="page-heading">
+        <div><span class="overline">EXECUTIVE OVERVIEW · 2026</span><h1>Analytics that move<br><em>decisions forward.</em></h1></div>
+        <div class="heading-note">Business Intelligence Developer<br>Power BI · Data Modeling · Automation</div>
+      </div>
+
+      <div class="kpi-grid">
+        <button class="kpi-card active" data-kpi="users"><span class="kpi-label">MONTHLY ACTIVE USERS</span><strong>2,000<span>+</span></strong><small>Enterprise analytics reach <b>↗</b></small></button>
+        <button class="kpi-card" data-kpi="refresh"><span class="kpi-label">REFRESH TIME</span><strong>−55<span>%</span></strong><small>Performance optimization <b>↘</b></small></button>
+        <button class="kpi-card" data-kpi="automation"><span class="kpi-label">DATA PREP AUTOMATION</span><strong>90<span>%</span></strong><small>Manual workflows automated <b>↗</b></small></button>
+        <button class="kpi-card" data-kpi="adoption"><span class="kpi-label">USER ADOPTION</span><strong>+45<span>%</span></strong><small>Within first 2 months <b>↗</b></small></button>
+      </div>
+
+      <div class="dashboard-grid">
+        <article class="panel performance-panel">
+          <div class="panel-head"><div><span class="panel-kicker">PERFORMANCE VIEW</span><h2 id="chartTitle">Enterprise reach</h2></div><select id="chartSelect"><option value="users">Active users</option><option value="refresh">Refresh time</option><option value="automation">Automation</option><option value="adoption">Adoption</option></select></div>
+          <div class="big-chart">
+            <div class="y-axis"><span id="y1">100</span><span id="y2">75</span><span id="y3">50</span><span id="y4">25</span><span>0</span></div>
+            <div class="plot" id="plot">
+              <div class="gridline g1"></div><div class="gridline g2"></div><div class="gridline g3"></div><div class="gridline g4"></div>
+              <svg viewBox="0 0 700 230" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#b8f36b" stop-opacity=".24"/><stop offset="1" stop-color="#b8f36b" stop-opacity="0"/></linearGradient></defs><path id="area" d="" fill="url(#fill)"/><path id="line" d="" fill="none" stroke="#b8f36b" stroke-width="3" vector-effect="non-scaling-stroke"/><g id="points"></g></svg>
+            </div>
+            <div class="x-axis"><span>Q1</span><span>Q2</span><span>Q3</span><span>Q4</span><span>Current</span></div>
+          </div>
+          <div class="chart-foot"><span id="chartInsight">Enterprise dashboards supporting global business units.</span><span class="mono">INTERACTIVE METRIC</span></div>
+        </article>
+
+        <article class="panel profile-panel">
+          <div class="panel-head"><div><span class="panel-kicker">PROFILE SIGNAL</span><h2>BI capability map</h2></div><span class="signal">●</span></div>
+          <div class="radar">
+            <div class="radar-ring r1"></div><div class="radar-ring r2"></div><div class="radar-ring r3"></div>
+            <div class="radar-shape"></div>
+            <span class="axis a1">VISUALIZATION</span><span class="axis a2">MODELING</span><span class="axis a3">AUTOMATION</span><span class="axis a4">GOVERNANCE</span><span class="axis a5">CLOUD</span>
+          </div>
+          <div class="legend"><span><i class="dot lime"></i> Core expertise</span><span><i class="dot gray"></i> Supporting capability</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="impact" class="dashboard-section">
+      <div class="section-title"><span>01</span><div><span class="overline">IMPACT ANALYTICS</span><h2>From engineering effort<br>to measurable outcomes.</h2></div></div>
+      <div class="impact-grid">
+        <article class="impact-card"><span class="impact-num">55%</span><div><b>Faster refresh</b><p>Legacy dashboards optimized through DAX rewrites, star schema modeling and aggregations.</p></div><div class="impact-bar"><i style="width:82%"></i></div></article>
+        <article class="impact-card"><span class="impact-num">35%</span><div><b>Lower storage use</b><p>Power BI Premium capacity and memory optimization using VertiPaq Analyzer and DAX Studio.</p></div><div class="impact-bar"><i style="width:65%"></i></div></article>
+        <article class="impact-card"><span class="impact-num">75%</span><div><b>Less manual effort</b><p>AI-driven ServiceNow agent parses logs, routes incident tickets and detects SLA breaches.</p></div><div class="impact-bar"><i style="width:92%"></i></div></article>
+        <article class="impact-card"><span class="impact-num">90%</span><div><b>Admin effort reduced</b><p>Python scripting automated OBIEE application-role and security-filter validation.</p></div><div class="impact-bar"><i style="width:96%"></i></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="dashboard-section">
+      <div class="section-title project-heading"><span>02</span><div><span class="overline">PROJECT EXPLORER</span><h2>Selected automation work.</h2></div><div class="filter-row"><button class="filter active" data-filter="all">ALL</button><button class="filter" data-filter="python">PYTHON</button><button class="filter" data-filter="security">SECURITY</button><button class="filter" data-filter="ai">AI</button></div></div>
+      <div class="project-table">
+        <article class="project-row" data-tags="python ai">
+          <div class="project-id">01</div><div class="project-main"><div class="project-title"><h3>AI Agent & Ticket Management Automation</h3><span>AI · PYTHON · SERVICENOW</span></div><p>Python-based AI agent for system-log parsing, automatic incident routing and real-time SLA breach detection.</p></div><div class="project-result"><strong>75%</strong><small>MANUAL EFFORT REDUCED</small></div><div class="project-arrow">↗</div>
+        </article>
+        <article class="project-row" data-tags="python security">
+          <div class="project-id">02</div><div class="project-main"><div class="project-title"><h3>OBIEE Security & Filter Validation</h3><span>PYTHON · OBIEE · GOVERNANCE</span></div><p>Automated validation system auditing application roles and security filters across analytic environments.</p></div><div class="project-result"><strong>90%</strong><small>ADMIN EFFORT REDUCED</small></div><div class="project-arrow">↗</div>
+        </article>
+      </div>
+      <div class="project-detail" id="projectDetail"><span class="overline">SELECT A PROJECT</span><h3>Click a project row to inspect the outcome.</h3><p>The explorer is interactive. Select a project above to reveal its focus, implementation and documented result.</p></div>
+    </section>
+
+    <section id="stack" class="dashboard-section">
+      <div class="section-title"><span>03</span><div><span class="overline">TECHNOLOGY STACK</span><h2>The tools behind the dashboards.</h2></div></div>
+      <div class="stack-grid">
+        <article class="stack-card featured"><span class="stack-icon">▦</span><h3>Power BI</h3><p>Desktop · Service · DAX · Power Query · Gateways · Premium</p><div class="stack-line"></div><small>PRIMARY BI PLATFORM</small></article>
+        <article class="stack-card"><span class="stack-icon">◫</span><h3>Data Modeling</h3><p>Star Schema · Snowflake Schema · Semantic Modeling · ETL</p><div class="stack-line"></div><small>ARCHITECTURE</small></article>
+        <article class="stack-card"><span class="stack-icon">⌘</span><h3>Engineering</h3><p>SQL · PL/SQL · Python · Git · DAX Studio · Unix Shell</p><div class="stack-line"></div><small>BUILD & AUTOMATE</small></article>
+        <article class="stack-card"><span class="stack-icon">☁</span><h3>Cloud</h3><p>Azure · AWS · OCI · Microsoft Fabric · Warehousing</p><div class="stack-line"></div><small>SCALABLE DELIVERY</small></article>
+        <article class="stack-card"><span class="stack-icon">◈</span><h3>Visualization</h3><p>Tableau · Looker · OBIEE · OAC · Executive Reporting</p><div class="stack-line"></div><small>DATA STORYTELLING</small></article>
+        <article class="stack-card"><span class="stack-icon">◎</span><h3>Governance</h3><p>RLS · Access Control · Workspaces · Deployment · JIRA</p><div class="stack-line"></div><small>ENTERPRISE OPERATIONS</small></article>
+      </div>
+    </section>
+
+    <section id="experience" class="dashboard-section">
+      <div class="section-title"><span>04</span><div><span class="overline">CAREER TIMELINE</span><h2>Four+ years in enterprise analytics.</h2></div></div>
+      <div class="timeline">
+        <article><div class="time">JUN 2026 — PRESENT</div><div class="role"><span class="current-tag">CURRENT</span><h3>Business Intelligence Developer / Power BI Developer</h3><b>Tata Consultancy Services · Kolkata</b><p>Enterprise-scale Power BI architecture, semantic models, performance optimization, ETL automation, Premium capacity, RLS, governance and developer mentorship.</p></div></article>
+        <article><div class="time">JUN 2022 — MAY 2026</div><div class="role"><h3>Enterprise Data Visualization Engineer</h3><b>Cognizant Technology Solutions · Kolkata</b><p>Enterprise dashboards across Tableau, Power BI and OBIEE; SQL optimization, data modeling, dashboard lifecycle, cloud integration and BI governance.</p></div></article>
+      </div>
+    </section>
+
+    <section id="credentials" class="dashboard-section">
+      <div class="section-title"><span>05</span><div><span class="overline">CREDENTIALS</span><h2>Certified for the craft.</h2></div></div>
+      <div class="credential-grid">
+        <article><div class="cert-logo">PL<br><small>300</small></div><div><span class="overline">MICROSOFT CERTIFIED</span><h3>Power BI Data Analyst Associate</h3></div><span class="cert-check">✓</span></article>
+        <article><div class="cert-logo">OCI</div><div><span class="overline">ORACLE CERTIFIED</span><h3>OCI Foundation Associate</h3></div><span class="cert-check">✓</span></article>
+      </div>
+    </section>
+
+    <section class="contact-panel">
+      <div><span class="overline">NEXT CONNECTION</span><h2>Have a data problem<br>worth solving?</h2></div>
+      <div class="contact-actions"><a href="mailto:tathagattripathy2001@gmail.com">Email me ↗</a><a href="https://www.linkedin.com/in/tathagat-tripathy" target="_blank">LinkedIn ↗</a><a href="tel:+917683879007">Call ↗</a></div>
+    </section>
+    <footer><span>© <span id="year"></span> Tathagat Tripathy</span><span>POWER BI · DATA · AUTOMATION</span><a href="#overview">TOP ↑</a></footer>
+  </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
